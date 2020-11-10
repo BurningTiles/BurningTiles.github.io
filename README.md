@@ -1,5 +1,5 @@
 :star: 
-# Star us on GitHub — it helps! 
+# Welcome Everyone... 
 :tada:
 
 ### Website
