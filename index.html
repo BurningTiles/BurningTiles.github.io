@@ -116,6 +116,7 @@
 							<ul class="nav">
 								<li class="nav__item"><a class="active" href="#about-tab">About</a></li>
 								<li class="nav__item"><a href="#resume-tab">Resume</a></li>
+								<li class="nav__item"><a href="#portfolio-tab">Portfolio</a></li>
 								<li class="nav__item"><a href="#contact-tab">Contact</a></li>
 							</ul>
 						</div>
@@ -126,10 +127,9 @@
 								<div class="pb-0 pb-sm-2">
 									<h1 class="title title--h1 first-title title__separate">About Me</h1>
 									<p>I'm student and learner with interest in programming, Mathematics and Logics. I participated in various programming challenges like Google CodeJam, Google HashCode, TCSCodeVita and other websites.</p>
-									<p>Currently i am learning Competitive Coding and Algorithms cause it's fun for me and i love to do it. Apart from this i am also learning React Native and IoT.</p>
-									<p>I'm also certified in Java (Basic and Intermediate) and Problem Solving on HackerRank.</p>
+									<p>Currently i am learning Competitive Coding and Algorithms cause it's fun for me and i love to do it. Apart from this i am also learning React and React-Native.</p>
+									<p>I'm also qualified in GATE 2021 and certified in Problem Solving and Java on HackerRank.</p>
 								</div>
-						
 								
 								<div class="box-inner pb-0">
 									<h2 class="title title--h3">What I'm Doing</h2>
@@ -257,8 +257,8 @@
 											<div class="box box__second">
 										
 												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-														<div class="progress-text"><span>C/C++</span><span>90%</span></div>
+													<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+														<div class="progress-text"><span>C/C++</span><span>95%</span></div>
 													</div>
 													<div class="progress-text"><span>C/C++</span></div>
 												</div>
@@ -271,8 +271,8 @@
 												</div>
 										
 												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-														<div class="progress-text"><span>JavaScript</span><span>60%</span></div>
+													<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+														<div class="progress-text"><span>JavaScript</span><span>75%</span></div>
 													</div>
 													<div class="progress-text"><span>JavaScript</span></div>
 												</div>
@@ -285,8 +285,8 @@
 												</div>
 										
 												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-														<div class="progress-text"><span>Algorithms</span><span>60%</span></div>
+													<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+														<div class="progress-text"><span>Algorithms</span><span>80%</span></div>
 													</div>
 													<div class="progress-text"><span>Algorithms</span></div>
 												</div>
@@ -295,7 +295,149 @@
 									</div>
 								</div>
 							</div>
-							
+
+							<div id="portfolio-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Portfolio</h1>
+								</div>
+								<div class="pb-0">
+									<div class="select">
+										<span class="placeholder">Select category</span>
+										<ul class="filter">
+											<li class="filter__item">Category</li>
+											<li class="filter__item active" data-filter="*"><a class="filter__link active" href="#filter">All</a></li>
+											<li class="filter__item" data-filter=".category-mobile"><a class="filter__link" href="#filter">Mobile</a></li>
+											<li class="filter__item" data-filter=".category-web"><a class="filter__link" href="#filter">Web</a></li>
+											<li class="filter__item" data-filter=".category-console"><a class="filter__link" href="#filter">Console</a></li>
+										</ul>
+									</div>
+
+									<div class="gallery-grid js-masonry js-filter-container">
+										<div class="gutter-sizer"></div>
+										
+										<figure class="gallery-grid__item category-mobile">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/PassMan.jpg" data-zoom alt="" />
+											</div>
+											<a href="https://github.com/BurningTiles/PassMan" >
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">PassMan</h4>
+													<span class="gallery-grid__category">It is password manager with minimal and useful features with good design and ease of use.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-mobile">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/CSN.jpg" data-zoom alt="" />
+											</div>
+											<a href="https://github.com/BurningTiles/CSN/">
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">CSN</h4>
+													<span class="gallery-grid__category">It is app to build a community of CS students, where they can get good knowledge and suggestions to achieve their goal.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-web">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/Todo.png" data-zoom alt="" />
+											</div>	
+											<a href="https://burningtiles.github.io/web/todo/">
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">Todo</h4>
+													<span class="gallery-grid__category">Todo web app using VueJS. I created it for learning purpose.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-web">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/Calculator.png" data-zoom alt="" />
+											</div>
+											<a href="https://burningtiles.github.io/calculator/" >
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">Calculator</h4>
+													<span class="gallery-grid__category">Static Website using HTML, CSS and JavaScript.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-web">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/DailyCoding.png" data-zoom alt="" />
+											</div>
+											<a href="https://burningtiles.github.io/DailyCoding/">
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">DailyCoding</h4>
+													<span class="gallery-grid__category">Website where everyday one coding question added for learning purpose.<br>Abandoned.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-web">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/PlayGround.png" data-zoom alt="" />
+											</div>
+											<a href="https://burningtiles.github.io/PlayGround/">
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">PlayGround</h4>
+													<span class="gallery-grid__category">Clone website of A2oJ with design changes.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-console">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/MyText.jpg" data-zoom alt="" />
+											</div>
+											<a href="https://github.com/BurningTiles/MyText">
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">MyText</h4>
+													<span class="gallery-grid__category">Console based program which will print the text in stylish way.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-console">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/Calculator.jpg" data-zoom alt="" />
+											</div>
+											<a href="https://github.com/BurningTiles/calculator" >
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">Calculator</h4>
+													<span class="gallery-grid__category">Console program with good calculation abilities.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-console">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/Programs.PNG" data-zoom alt="" />
+											</div>
+											<a href="https://github.com/BurningTiles/Programs">
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">Programs</h4>
+													<span class="gallery-grid__category">Programs i created when i was beginner.</span>
+												</figcaption>
+											</a>
+										</figure>
+
+										<figure class="gallery-grid__item category-console">
+											<div class="gallery-grid__image-wrap">
+												<img class="gallery-grid__image cover lazyload" src="assets/img/NumericMath.PNG" data-zoom alt="" />
+											</div>
+											<a href="https://github.com/BurningTiles/Numerical-Math">
+												<figcaption class="gallery-grid__caption">
+													<h4 class="title gallery-grid__title">NumericMath</h4>
+													<span class="gallery-grid__category">A library created just for fun to do Numberical Mathematical calculations.</span>
+												</figcaption>
+											</a>
+										</figure>
+									</div>
+								</div>
+							</div>
+
 							<div id="contact-tab" class="tabcontent">
 								<div class="pb-2">
 									<h1 class="title title--h1 first-title title__separate">Contact</h1>
